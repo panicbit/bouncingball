@@ -1,8 +1,9 @@
 #![feature(std_misc)]
 extern crate rand;
 extern crate rustbox;
+extern crate time;
 use std::process::exit;
-use std::time::duration::Duration;
+use time::Duration;
 use rand::Rng;
 use rustbox::Event::KeyEvent;
 use rustbox::Key::{Esc,Char};

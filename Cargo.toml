@@ -5,4 +5,5 @@ authors = ["panicbit <panicbit@users.noreply.github.com>"]
 
 [dependencies]
 rand = "0.3"
-rustbox = "0.5"
+rustbox = "*"
+time = "*"
